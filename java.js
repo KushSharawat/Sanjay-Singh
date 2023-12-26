@@ -9,7 +9,7 @@ form.addEventListener('submit', e => {
             msg.innerHTML = alert("Your response has recorded")
             setTimeout(function () {
                 msg.innerHTML = ""
-            }, 5000)
+            },)
             form.reset()
         })
         .catch(error => console.error('Error!', error.message))
