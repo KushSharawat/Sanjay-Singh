@@ -6,10 +6,6 @@ form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => {
-            msg.innerHTML = alert("Your response has recorded")
-            setTimeout(function () {
-                msg.innerHTML = ""
-            },)
             form.reset()
         })
         .catch(error => console.error('Error!', error.message))
