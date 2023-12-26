@@ -7,11 +7,15 @@ form.addEventListener('submit', e => {
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => {
             msg.innerHTML = alert("Your response has recorded")
-            setTimeout(function(){
+            setTimeout(function () {
                 msg.innerHTML = ""
-            },5000)
+            }, 5000)
             form.reset()
         })
         .catch(error => console.error('Error!', error.message))
 })
 
+var submitButton = document.getElementById('ms');
+submitButton.addEventListener('click', function () {
+    alert('Your response is recorded');
+});
