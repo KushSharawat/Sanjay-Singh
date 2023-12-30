@@ -101,7 +101,7 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #ababab;
-    height: 1600px;
+    height: 1500px;
 }
 
 .sub-title{
@@ -170,7 +170,7 @@ nav ul li a:hover::after{
 
 
 #team{
-    padding: 80px 0;
+    padding-top: 200px;
     color: #fff;
     height: 1300px;
 }
@@ -345,17 +345,44 @@ nav .fa-solid{
         font-size: 25px;
     }
 
-    nav ul li {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    nav ul li{
+        margin: 0.1px 0.1px;
+    }
+
+    nav ul li a{
+        font-size: 13px;
+    }
+
+    nav ul li a.h{
+        padding-left: 3.9px;
+        padding-right: 3.9px;
+    }
+    
+    nav ul li a.a{
+        padding-left: 5.5px;
+        padding-right: 5.5px;
+    }
+    
+    nav ul li a.t{
+        padding-left: 3.9px;
+        padding-right: 3.9px;
+    }
+    
+    nav ul li a.c{
+        padding-left: 4.5px;
+        padding-right: 4.5px;
+    }
+
+    .logo{
+        height: 40px;
+        width: 60px;
     }
 
     /*about*/
 
     #about{
-        padding: 20px 0;
-        height: 1900px;
+        padding: 30px 0;
+        height: 1750px;
     }
 
     .sub-title{
@@ -363,7 +390,7 @@ nav .fa-solid{
     }
 
     .para{
-        padding-top: 15px;
+        padding-top: 10px;
         width: 350px;
         font-size: 20px;
     }
@@ -371,7 +398,7 @@ nav .fa-solid{
     .expert{
         padding-right: 0;
         padding-left: 0%;
-        padding-top: 50px;
+        padding-top: 40px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -407,6 +434,7 @@ nav .fa-solid{
     }
     
     .sp{
+        padding-top: -200px;
         font-size: 25px;
         color: #205c25;
     }
@@ -419,16 +447,16 @@ nav .fa-solid{
     /*---------team----------*/
 
     #team{
-        height: 1600px;
+        height: 1670px;
     }
     
     .left{
-        padding-top: 10px;
+        padding-top: 5px;
         flex-basis: 100%;
     }
     
     .right{
-        padding-top: 10px;
+        padding-top: 5px;
         flex-basis: 100%;
     }
     
@@ -455,6 +483,10 @@ nav .fa-solid{
 
     /*-- --------------contact-------------- --*/
 
+    .war{
+        padding-top: 10px;
+    }
+
     .contact-left{
         flex-basis: 100%;   
     }
@@ -463,16 +495,29 @@ nav .fa-solid{
         flex-basis: 100%;
     }
 
+    .contact-left .social-icons {
+        padding-left: 45px;
+    }
+
     .contact-left p{
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    .ko{
+        color: #000000;
+        visibility: hidden;
+    }
+
+    .mo{
+        font-size: 20px;
     }
 
     .btn{
-        width: 350px;
+        width: 360px;
     }
 
     .contact-right form{
-        width: 350px;
+        width: 360px;
     }
 
     nav ul li a{
